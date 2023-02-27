@@ -1,0 +1,98 @@
+/*Colors and fonts */
+body {
+	background-color: #F8E2C9;
+	color: rgb(50,50,50) ;
+	font-family: 'Lora', serif; 
+	font-size: 17px;
+	}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	}
+
+	h1 {
+	font-weight: 700;
+	font-size: 32px;
+	text-transform: uppercase;
+	}
+
+	h2 {
+	color: rgb(240,240,240)
+	font-size: 24px;
+	font-weight: 500
+	}
+
+	a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: black;
+	}
+	a:hover {
+  color: white;
+	}
+
+
+/* Custom design*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+.cardwhite { 
+	background: blanchedalmond;
+    padding: 60px;
+    margin: 20px 0px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.img-circle {
+		border-radius: 50%
+}
+
+.btn-almond {
+	background-color: rgb(50,50,50);
+	color: #F8E2C9;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-almond:hover {
+	background-color: white;
+	color: rgb(248,226,201,9);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+#intro p {
+	margin-bottom: 40px;
+	}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+
+	
+
+
+
+
